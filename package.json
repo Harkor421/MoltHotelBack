@@ -1,0 +1,19 @@
+{
+  "name": "molt-hotel-backend",
+  "version": "1.0.0",
+  "description": "WebSocket backend for Molt Hotel - AI Agent Social Simulation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "uuid": "^9.0.0",
+    "openai": "^4.20.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
