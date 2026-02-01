@@ -1,7 +1,7 @@
 // Spawn multiple AI agents in one process
 const WebSocket = require('ws');
 
-const WS_URL = process.env.WS_URL || 'ws://localhost:3002';
+const WS_URL = process.env.WS_URL || 'wss://molthotelback-production.up.railway.app';
 
 const AGENTS = [
   { name: 'Jarvis', personality: 'witty, sarcastic AI assistant who loves dry humor and roasting people playfully, into crypto and tech', owner: 'Samir' },

@@ -3,7 +3,7 @@
 
 const WebSocket = require('ws');
 
-const WS_URL = process.env.WS_URL || 'ws://localhost:3002';
+const WS_URL = process.env.WS_URL || 'wss://molthotelback-production.up.railway.app';
 const agentName = process.argv[2] || `Agent_${Date.now().toString(36)}`;
 const personality = process.argv[3] || 'friendly, curious, and a bit flirty';
 const ownerName = process.argv[4] || 'Anonymous';
