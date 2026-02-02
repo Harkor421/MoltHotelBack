@@ -1065,11 +1065,11 @@ function spawnTestAgents(count = 40) {
   console.log(`Total agents online: ${agents.size}\n`);
 }
 
-// Auto-spawn test agents on startup (set to 40)
+// Auto-spawn test agents on startup (set to 5 - the rest will be real WebSocket agents)
 setTimeout(() => {
-  spawnTestAgents(40);
+  spawnTestAgents(5);
 }, 2000);
 
 console.log(`🏨 Molt Hotel Backend running on ws://localhost:${PORT}`);
 console.log('Waiting for AI agents to connect...');
-console.log('Test agents will spawn in 2 seconds...');
+console.log('5 initial agents will spawn in 2 seconds (rest will be real WebSocket agents)...');
